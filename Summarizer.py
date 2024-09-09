@@ -5,6 +5,8 @@ from newspaper import Article
 
 # Ensure you have the required nltk resources
 nltk.download('vader_lexicon')
+nltk.download('punkt')
+
 st.set_page_config(layout="wide")
 # Set the main title with red color
 st.markdown("<h1 style='color: #FF0000;'> ARTICLES | NEWS | URL : SUMMARIZER </h1>", unsafe_allow_html=True)
